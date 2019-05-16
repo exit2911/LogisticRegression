@@ -131,6 +131,5 @@ clf = linear_model.LogisticRegression()
 clf.fit(X,Y)
 clf.score(X,Y)
 
-pd.DataFrame(zip(X.columns,np.transpose(clf.coef_))) #what is clf.coef
+pd.DataFrame(zip(X.columns,np.transpose(clf.coef_))) 
 
-#what is spliting data to traning and testing sets
